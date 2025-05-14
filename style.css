@@ -189,3 +189,51 @@ input:focus {
   from { opacity: 1; transform: translateY(0); }
   to { opacity: 0; transform: translateY(10px); }
 }
+
+
+@media screen and (max-width: 769px) {
+  #inicio,
+  section {
+    padding: 3rem 2rem 2rem;
+    gap: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  #inicio h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  #inicio img {
+    height: 12rem;
+  }
+
+  button, 
+  input {
+    font-size: 1rem;
+  }
+
+  .tela > *:not(:last-of-type) {
+    margin-bottom: -1.15rem;
+  }
+
+  .imagem-player {
+    transform: translate(-50%, 0%);
+    width: 25vh;
+  }
+  .imagem-player.inverte-posicao {
+    transform: translate(50%, 0%) scaleX(-1);
+  }
+
+  .modal {
+    align-items: center;
+    padding: 0;
+  }
+
+  .modal-conteudo {
+    padding: 2.5rem 1rem 1rem;
+  }
+}
