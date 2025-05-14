@@ -29,10 +29,12 @@ Este é um jogo simples e divertido da **Palavra Secreta**, desenvolvido com **H
 
 ## 📁 Estrutura de arquivos
 
+```bash
 📦 projeto/
-├── index.html         # Página principal do jogo
-├── style.css          # Estilos personalizados
-└── index.js           # Lógica do jogo
+    ├── index.html         # Página principal do jogo
+    ├── style.css          # Estilos personalizados
+    └── index.js           # Lógica do jogo
+```
 
 ---
 
